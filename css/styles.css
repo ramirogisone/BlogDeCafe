@@ -102,6 +102,10 @@ img {
 	}
 }
 
+.barra {
+	padding-top: 4rem;
+}
+
 .logo {
 	color: var(--blanco);
 }
@@ -129,7 +133,7 @@ img {
 }
 
 @media (min-width: 768px) {
-	.contenedor {
+	.contenido-principal {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		gap: 4rem;
@@ -198,4 +202,20 @@ img {
 .widget-curso__info,
 .widget-curso__label {
 	font-size: 2rem;
+}
+
+.footer {
+	background-color: var(--negro);
+	padding-bottom: 3rem;
+	margin-top: 4rem;
+}
+
+/* Nosotros */
+
+@media (min-width: 768px) {
+	.contenido-nosotros {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+	}
 }
